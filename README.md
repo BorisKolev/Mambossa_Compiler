@@ -6,3 +6,5 @@ Language can use if, while and function statements.
 Supports all basic arithmetic and Boolean operation on variables.
 Having some error handling exceptions.
 Generates an Abstract Syntax Tree in the console.
+
+For more information read the Report.
