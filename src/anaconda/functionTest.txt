@@ -1,0 +1,24 @@
+int a;
+a = 4;
+a = funRun(4);
+
+int funRun(int n) {
+    int b;
+    b = 3;
+    if(b < a && a < 10) {
+        b *= n;
+    }
+    else if(a > 10) {
+        b = a / b - 1;
+    }
+    else {
+        b = a * n + b * n;
+    };
+    return b;
+};
+
+print(a);
+a = funRun(8);
+print(a);
+a = funRun(5);
+print(a);
